@@ -7,31 +7,22 @@ const currentTime = () => {
     // console.log(`The current minutes are: ${minutes}`)
     let seconds = currentTime.getSeconds()
     // console.log(`The current seconds are: ${seconds}`)
-    am_pm = 'AM'
-
-    if (hours >= 12) {
-        am_pm = 'PM'
-        console.log(am_pm)
-    }
     //Concatenate variables to produce current time string
     let time = (`${hours}:${minutes}:${seconds} ${am_pm}`)
     console.log(time);
 }
 
+const amOrPm = () => {
+    let am_pm = 'AM'
+
+    if (hours >= 12) {
+        am_pm = 'PM'
+        console.log(am_pm)
+    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 currentTime()
