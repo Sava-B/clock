@@ -1,0 +1,6 @@
+Steps on creating a clock in JavaScript
+
+[] - Define a function that outputs the current time
+[] - Extract the hours, minutes and seconds
+[] - Created a variable to store 'AM' or 'PM'
+[] - 
